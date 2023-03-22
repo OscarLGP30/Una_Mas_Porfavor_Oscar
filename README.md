@@ -1,6 +1,6 @@
 # Una_Mas_Porfavor_Oscar
 
-Mi Repositorio: 
+Mi Repositorio: https://github.com/OscarLGP30/Una_Mas_Porfavor_Oscar.git
 
 1. Dado el siguiente fragmento de código C:
 a) ¿Qué calcula la llamada a la función recursiva bisect(0,N)? Si cambiamos el valor de N, ¿qué estaríamos calculando? ¿Y si cambiásemos la función f(x)?
