@@ -1,0 +1,33 @@
+
+
+Construya una función que convierta un número decimal en una cadena que represente el valor del número en hexadecimal (base 16).
+A continuación, generalice la función para convertir un número decimal en un número en base B (con B<10).
+Resuélvalo mediante expresiones lambda.
+
+Recordatorio: El cambio de base se realiza mediante divisiones sucesivas por 16 en las cuales los restos determinan los dígitos hexadecimales del número
+
+Respuesta:
+
+def dec2hex(n):
+    if n == 0:
+        return '0'
+    else:
+        return dec2hex(n//16) + str(n%16)
+
+def dec2base(n, b):
+    if n == 0:
+        return '0'
+    else:
+        return dec2base(n//b, b) + str(n%b)
+
+print(dec2hex(123))
+print(dec2base(123, 16))
+print(dec2base(123, 2))
+print(dec2base(123, 3))
+print(dec2base(123, 4))
+print(dec2base(123, 5))
+print(dec2base(123, 6))
+print(dec2base(123, 7))
+print(dec2base(123, 8))
+print(dec2base(123, 9))
+
