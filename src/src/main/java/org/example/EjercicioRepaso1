@@ -11,13 +11,13 @@ return bisect (med,max); }}
 
 a)
 
-¿Qué calcula la llamada a la función recursiva bisect(0,N)?
+//¿Qué calcula la llamada a la función recursiva bisect(0,N)?\\
 La función recursiva bisect(0,N) calcula la raíz cuadrada de N.
 
-Si cambiamos el valor de N, ¿qué estaríamos calculando?
+//Si cambiamos el valor de N, ¿qué estaríamos calculando?\\
 Estaria calculando la raiz cuadrada de el valor por el que se cambie N.
 
 
-¿Y si cambiásemos la función f(x)?
+//¿Y si cambiásemos la función f(x)?\\
 si la funcion f(x) cambia, se cambiaria el valor de la raiz cuadrada de N.
 
