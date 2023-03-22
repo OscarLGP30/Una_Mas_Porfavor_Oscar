@@ -21,3 +21,10 @@ Estaria calculando la raiz cuadrada de el valor por el que se cambie N.
 //¿Y si cambiásemos la función f(x)?\\
 si la funcion f(x) cambia, se cambiaria el valor de la raiz cuadrada de N.
 
+//b) Implemente un algoritmo iterativo equivalente.\\
+static double bisect (double min, double max) { double med = (min+max)/2;
+while (max-min>PREC) { if (f(min)*f(med)<0) { max=med;
+} else { min=med; } med = (min+max)/2; } return med; }
+
+
+
